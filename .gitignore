@@ -47,6 +47,11 @@ env
 Vagrantfile
 
 #-------------------------
+# Local Skill & Internal Instructions
+#-------------------------
+SKILL.md
+
+#-------------------------
 # Database Dumps & Backups (SANGAT RAHASIA / SECURITY RISK)
 #-------------------------
 *.sql
