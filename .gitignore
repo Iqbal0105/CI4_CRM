@@ -1,0 +1,170 @@
+#-------------------------
+# Operating Specific Junk Files
+#-------------------------
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS X Thumbnails
+._*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Linux
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+#-------------------------
+# Environment Files
+#-------------------------
+# These should never be under version control,
+# as it poses a security risk.
+.env
+env
+.vagrant
+Vagrantfile
+
+#-------------------------
+# Database Dumps & Backups (SANGAT RAHASIA / SECURITY RISK)
+#-------------------------
+*.sql
+*.sql.gz
+metafora_ci4.sql
+writable/*.sql
+writable/backup_*
+
+#-------------------------
+# User Uploads (Avatars, Bukti Bayar, Dokumen)
+#-------------------------
+public/uploads/*
+!public/uploads/index.html
+!public/uploads/.gitkeep
+
+#-------------------------
+# File Scan Resi & Dokumen Sampel (Privasi Pelanggan)
+#-------------------------
+template/*.pdf
+template/*.jpg
+template/*.jpeg
+template/*.png
+template/*.webp
+
+#-------------------------
+# Temporary OCR & Binary Models
+#-------------------------
+writable/temp_*
+writable/node_modules/
+node_modules/
+eng.traineddata
+public/eng.traineddata
+
+#-------------------------
+# Local Scratch Scripts & Test Dummy
+#-------------------------
+scratch/
+scratch_*.php
+public/dummy_*.csv
+.phpunit.cache/
+.phpunit.result.cache
+
+#-------------------------
+# Temporary Files
+#-------------------------
+writable/cache/*
+!writable/cache/index.html
+
+writable/logs/*
+!writable/logs/index.html
+
+writable/session/*
+!writable/session/index.html
+
+writable/uploads/*
+!writable/uploads/index.html
+
+writable/debugbar/*
+!writable/debugbar/index.html
+
+php_errors.log
+
+#-------------------------
+# User Guide Temp Files
+#-------------------------
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#-------------------------
+# Test Files
+#-------------------------
+tests/coverage*
+
+# Don't save phpunit under version control.
+phpunit
+
+#-------------------------
+# Composer
+#-------------------------
+vendor/
+
+#-------------------------
+# IDE / Development Files
+#-------------------------
+
+# Modules Testing
+_modules/*
+
+# phpenv local config
+.php-version
+
+# Jetbrains editors (PHPStorm, etc)
+.idea/
+*.iml
+
+# NetBeans
+/nbproject/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+/.nb-gradle/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+.phpintel
+/api/
+
+# Visual Studio Code
+.vscode/
+
+/results/
+/phpunit*.xml

@@ -1,0 +1,6 @@
+services:
+  ci4new:
+    image: ci4new
+    build:
+      context: .
+      dockerfile: ./Dockerfile
